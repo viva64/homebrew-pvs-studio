@@ -1,4 +1,4 @@
-# Homebrew PVS-studio Analyser
+# Homebrew PVS-Studio Analyser
 
 A centralized repository for [PVS-Studio](https://www.viva64.com/en/pvs-studio/) brews.
 
