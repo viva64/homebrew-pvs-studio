@@ -1,0 +1,21 @@
+language: cpp
+matrix:
+    include:
+        - os: osx
+          osx_image: xcode6.4
+          compiler: clang
+
+        - os: osx
+          osx_image: xcode8
+          compiler: clang
+
+        - os: osx
+          osx_image: xcode9.2
+          compiler: clang
+
+script:
+    - brew update
+    - brew install viva64/pvs-studio/pvs-studio-beta
+    - brew test pvs-studio-beta
+    - brew remove pvs-studio-beta
+

@@ -7,4 +7,8 @@ class AbstractPvsStudio < Formula
   def install
     system "./install.sh", "#{prefix}"
   end
+
+  test do
+    system "pvs-studio-analyzer", "-h"
+  end
 end
