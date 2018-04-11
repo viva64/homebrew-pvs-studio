@@ -18,4 +18,6 @@ script:
     - brew install viva64/pvs-studio/pvs-studio-beta
     - brew test pvs-studio-beta
     - brew remove pvs-studio-beta
-
+    - brew install pvs-studio
+    - brew test pvs-studio
+    - brew remove pvs-studio
