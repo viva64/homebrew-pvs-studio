@@ -10,7 +10,7 @@ Run the following in your command-line:
 $ brew install viva64/pvs-studio/pvs-studio
 ```
 
-Or download installer from site: [Get PVS-Studio for Mac](https://www.viva64.com/en/pvs-studio-download-mac/)
+Or download installer from site: [Get PVS-Studio for macOS](https://www.viva64.com/en/pvs-studio-download-macos/)
 
 ## Update
 
