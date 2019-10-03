@@ -5,7 +5,8 @@ class AbstractPvsStudio < Formula
   homepage "https://www.viva64.com/en/pvs-studio/"
 
   def install
-    system "./install.sh", "#{prefix}"
+    bin.install "pvs-studio", "pvs-studio-analyzer", "plog-converter"
+    etc.install Dir["*"]
   end
 
   test do
