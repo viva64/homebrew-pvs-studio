@@ -9,7 +9,7 @@ class AbstractBlameNotifier < Formula
   homepage "https://www.viva64.com/en/pvs-studio/"
 
   def install
-    bin.install "bin/blame-notifier"
+    bin.install "blame-notifier"
   end
 
   #test do
