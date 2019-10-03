@@ -8,6 +8,10 @@ class AbstractBlameNotifier < Formula
        "You can install it with: brew cask install dotnet-sdk"
   homepage "https://www.viva64.com/en/pvs-studio/"
 
+  def install
+    bin.install "bin/blame-notifier"
+  end
+
   #test do
   #  system "pvs-studio-analyzer", "-h"
   #end
