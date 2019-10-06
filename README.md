@@ -1,4 +1,4 @@
-# Homebrew PVS-Studio Analyzer [![Build Status](https://travis-ci.org/viva64/homebrew-pvs-studio.svg?branch=master)](https://travis-ci.org/viva64/homebrew-pvs-studio) ![Version](https://img.shields.io/badge/os%20x-10.9%2B-green.svg) [![Docs](	https://img.shields.io/readthedocs/pip.svg)](https://www.viva64.com/en/m/0036/)
+# Homebrew PVS-Studio Analyzer [![Build Status](https://travis-ci.org/viva64/homebrew-pvs-studio.svg?branch=master)](https://travis-ci.org/viva64/homebrew-pvs-studio) ![Version](https://img.shields.io/badge/os%20x-10.13%2B-green.svg) [![Docs](	https://img.shields.io/readthedocs/pip.svg)](https://www.viva64.com/en/m/0036/)
 
 A centralized repository for [PVS-Studio](https://www.viva64.com/en/pvs-studio/) brews.
 
