@@ -13,13 +13,13 @@ $ brew install viva64/pvs-studio/pvs-studio
 $ brew upgrade pvs-studio
 ```
 
-## BlameNotifier utility
+## blame-notifier utility
 
-BlameNotifier is a utility for automating the process of finding the developers responsible for writing code that triggered certain warnings, based on blame output from version control system.
+blame-notifier is a utility for automating the process of finding the developers responsible for writing code that triggered certain warnings, based on blame output from version control system.
 
 ```
-$ brew install viva64/pvs-studio/blame-notifier-beta
-$ brew upgrade blame-notifier-beta
+$ brew install viva64/pvs-studio/blame-notifier
+$ brew upgrade blame-notifier
 ```
 
 ---
