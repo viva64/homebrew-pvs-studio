@@ -17,6 +17,8 @@ $ brew upgrade pvs-studio
 
 blame-notifier is a utility for automating the process of finding the developers responsible for writing code that triggered certain warnings, based on blame output from version control system.
 
+blame-notifier utility requires [.NET Core Runtime 3.0](https://dotnet.microsoft.com/download/dotnet-core/3.0).
+
 ```
 $ brew install viva64/pvs-studio/blame-notifier
 $ brew upgrade blame-notifier
