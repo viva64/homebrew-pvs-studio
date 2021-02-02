@@ -1,7 +1,7 @@
 require File.expand_path("../../Abstract/abstract-pvs-studio-dotnet", __FILE__)
 
 class PvsStudioDotnetBeta < AbstractPvsStudioDotnet
-  url "http://files.viva64.com/beta/pvs-studio-dotnet-7.11.44923.442-macos.tar.gz"
-  version "7.11.44923.442"
-  sha256 "622a727f867e369d9c9ffa4f7d3ae4fcb11d0e14505eadee7124a2a463640751"
+  url "http://files.viva64.com/beta/pvs-studio-dotnet-7.11.44979.446-macos.tar.gz"
+  version "7.11.44979.446"
+  sha256 "56efa9aa7b0b7285f1d602567a7868af533138778315d524038af641fc3c8ead"
 end
