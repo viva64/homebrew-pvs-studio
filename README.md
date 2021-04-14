@@ -16,8 +16,8 @@ $ brew upgrade pvs-studio
 ```
 ## C# analyzer
 
-The PVS-Studio C# analyzer requires .NET Core SDK 3.1 and the PVS-Studio C++ analyzer (pvs-studio) installed on a machine. 
-The .NET Core SDK for macOS can be downloaded from [this page](https://dotnet.microsoft.com/download/dotnet-core/3.1).
+The PVS-Studio C# analyzer requires .NET SDK 5.0 and the PVS-Studio C++ analyzer (pvs-studio) installed on a machine. 
+The .NET Core SDK for macOS can be downloaded from [this page](https://dotnet.microsoft.com/download/dotnet/5.0).
 
 Installation commands:
 
