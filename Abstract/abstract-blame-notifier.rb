@@ -6,7 +6,7 @@ class AbstractBlameNotifier < Formula
        "Supported version control systems are: git, svn, mercurial.\n" +
        ".NET Core version 3.1 required to use this package.\n" +
        "You can install it with: brew cask install dotnet-sdk"
-  homepage "https://www.viva64.com/en/pvs-studio/"
+  homepage "https://pvs-studio.com/en/pvs-studio/"
 
   def install
     bin.install "blame-notifier"
