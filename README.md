@@ -46,4 +46,4 @@ $ brew upgrade blame-notifier
 
 ---
 
-Or download installer from site: [Get PVS-Studio for macOS](https://pvs-studio.com/en/pvs-studio/download/)
+Or download installer from site: [Get PVS-Studio for macOS](https://pvs-studio.com/en/pvs-studio/download/) 
