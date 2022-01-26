@@ -1,6 +1,6 @@
 Homebrew PVS-Studio
 =====================
-[![Build Status](https://travis-ci.org/viva64/homebrew-pvs-studio.svg?branch=master)](https://travis-ci.org/viva64/homebrew-pvs-studio) [![Docs](	https://img.shields.io/readthedocs/pip.svg)](https://pvs-studio.com/en/docs/manual/0036/) ![Version](https://img.shields.io/badge/os%20x-10.13%2B-green.svg)
+[![Docs](	https://img.shields.io/readthedocs/pip.svg)](https://pvs-studio.com/en/docs/manual/0036/) ![Version](https://img.shields.io/badge/os%20x-10.13%2B-green.svg)
 
 A centralized repository for [PVS-Studio](https://pvs-studio.com/en/pvs-studio/) brews.
 
