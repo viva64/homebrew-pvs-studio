@@ -1,7 +1,7 @@
 require File.expand_path("../../Abstract/abstract-pvs-studio", __FILE__)
 
 class PvsStudioBeta < AbstractPvsStudio
-  url "https://cdn.pvs-studio.com/beta/pvs-studio-7.22.68217.4806-macos.tgz"
-  version "7.22.68217.4806"
-  sha256 "c40425d00c8ed370f7b8d54fcd18001416073f10bfc44d51c2b73898a32973e2"
+  url "https://cdn.pvs-studio.com/beta/pvs-studio-7.22.68308.4816-macos.tgz"
+  version "7.22.68308.4816"
+  sha256 "221840a22539b707c97f9acf2dab39a58a561f0dcfa35f25f6815bd64e93e830"
 end
