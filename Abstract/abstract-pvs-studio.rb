@@ -6,9 +6,10 @@ class AbstractPvsStudio < Formula
 
   def install
     bin.install "bin/pvs-studio", "bin/pvs-studio-analyzer", "bin/plog-converter"
+    lib.install Dir["lib/*"]
     etc.install Dir["etc/*"]
   end
-
+:
   test do
     system "pvs-studio-analyzer", "-h"
   end
