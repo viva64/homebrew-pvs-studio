@@ -9,7 +9,7 @@ class AbstractPvsStudio < Formula
     lib.install Dir["lib/*"]
     etc.install Dir["etc/*"]
   end
-:
+
   test do
     system "pvs-studio-analyzer", "-h"
   end
