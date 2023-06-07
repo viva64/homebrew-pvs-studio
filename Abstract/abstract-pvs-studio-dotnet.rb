@@ -7,8 +7,7 @@ class AbstractPvsStudioDotnet < Formula
   homepage "https://pvs-studio.com/en/pvs-studio/"
 
   def install
-    share.install Dir["share/*"]
-    bin.install_symlink share/"pvs-studio-dotnet/pvs-studio-dotnet"
+    system "install.sh", "#{HOMEBREW_PREFIX}"
   end
 
   #test do
