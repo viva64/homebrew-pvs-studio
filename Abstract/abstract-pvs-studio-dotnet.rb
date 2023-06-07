@@ -7,7 +7,7 @@ class AbstractPvsStudioDotnet < Formula
   homepage "https://pvs-studio.com/en/pvs-studio/"
 
   def install
-    system "install.sh", "#{HOMEBREW_PREFIX}"
+    system "install.sh", "#{prefix}"
   end
 
   #test do
