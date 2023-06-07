@@ -8,6 +8,7 @@ class AbstractPvsStudioDotnet < Formula
 
   def install
     share.install Dir["share/*"]
+    bin.install_symlink share/"pvs-studio-dotnet/pvs-studio-dotnet"
   end
 
   #test do
