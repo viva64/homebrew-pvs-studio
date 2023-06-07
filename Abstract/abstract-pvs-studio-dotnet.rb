@@ -7,7 +7,6 @@ class AbstractPvsStudioDotnet < Formula
   homepage "https://pvs-studio.com/en/pvs-studio/"
 
   def install
-    bin.install "bin/pvs-studio-dotnet"
     share.install Dir["share/*"]
   end
 
