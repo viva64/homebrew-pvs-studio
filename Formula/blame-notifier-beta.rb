@@ -1,7 +1,7 @@
 require File.expand_path("../../Abstract/abstract-blame-notifier", __FILE__)
 
 class BlameNotifierBeta < AbstractBlameNotifier
-  url "https://cdn.pvs-studio.com/beta/blame-notifier-7.27.75686.1622-macos.tar.gz"
-  version "7.27.75686.1622"
-  sha256 "dd8c31259b8502cfc6eb3c484fb7c47717449ce153f2a36b75f2a66774de92c0"
+  url "https://cdn.pvs-studio.com/beta/blame-notifier-7.27.75717.1623-macos.tar.gz"
+  version "7.27.75717.1623"
+  sha256 "3fbb89e906e2290edf31afda52f7da050c99765c26151498a227832da5a0ecfd"
 end
