@@ -16,8 +16,8 @@ $ brew upgrade pvs-studio
 ```
 ## C# analyzer
 
-The PVS-Studio C# analyzer requires .NET SDK 8.0 and the PVS-Studio C++ analyzer (pvs-studio) installed on a machine. 
-The .NET SDK for macOS can be downloaded from [this page](https://dotnet.microsoft.com/download/dotnet/8.0).
+The PVS-Studio C# analyzer requires .NET SDK 9.0 and the PVS-Studio C++ analyzer (pvs-studio) installed on a machine. 
+The .NET SDK for macOS can be downloaded from [this page](https://dotnet.microsoft.com/download/dotnet/9.0).
 
 Installation commands:
 
@@ -37,7 +37,7 @@ $ brew upgrade pvs-studio-dotnet
 
 blame-notifier is a utility for automating the process of finding the developers responsible for writing code that triggered certain warnings, based on blame output from version control system.
 
-blame-notifier utility requires [.NET Core Runtime 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1).
+blame-notifier utility requires [.NET Runtime 9.0](https://dotnet.microsoft.com/download/dotnet/9.0).
 
 ```
 $ brew install viva64/pvs-studio/blame-notifier
