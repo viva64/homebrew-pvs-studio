@@ -4,7 +4,7 @@ class AbstractBlameNotifier < Formula
        "blame-notifier will send html messages to these developers and also prepare a complete report for \"special\"\n" +
        "persons with the warnings sorted by the \"guilty\" developers.\n" +
        "Supported version control systems are: git, svn, mercurial.\n" +
-       ".NET Core version 3.1 required to use this package.\n" +
+       ".NET 9 required to use this package.\n" +
        "You can install it with: brew cask install dotnet-sdk"
   homepage "https://pvs-studio.com/en/pvs-studio/"
 
