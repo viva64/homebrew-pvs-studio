@@ -2,13 +2,13 @@ require File.expand_path("../../Abstract/abstract-pvs-studio", __FILE__)
 
 class PvsStudioBeta < AbstractPvsStudio
   on_intel do
-    url "https://cdn.pvs-studio.com/beta/pvs-studio-7.37.94502.554-macos-x86_64.zip"
-    version "7.37.94502.554"
-    sha256 "ff4b5a70261507f414962f5c0b47f04d039c9405a9352d8f46e46217b7034947"
+    url "https://cdn.pvs-studio.com/beta/pvs-studio-7.37.94636.560-macos-x86_64.zip"
+    version "7.37.94636.560"
+    sha256 "5c07f4def2f760af2a35331d8867414f238eaebea24f0eb495e042b6ad1c4528"
   end
   on_arm do
-    url "https://cdn.pvs-studio.com/beta/pvs-studio-7.37.94502.554-macos-arm64.zip"
-    version "7.37.94502.554"
-    sha256 "537db3518fb69eb68750661b7f29da900c98cf8f2f828afbedb60b65b4c2b39c"
+    url "https://cdn.pvs-studio.com/beta/pvs-studio-7.37.94636.560-macos-arm64.zip"
+    version "7.37.94636.560"
+    sha256 "2b0f86722cc8957a526d2afb0495b09ae17c10226fde5d3a95440c9e1a5df1ae"
   end
 end
