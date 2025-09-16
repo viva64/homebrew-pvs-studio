@@ -3,13 +3,13 @@ require File.expand_path("../../Abstract/abstract-blame-notifier", __FILE__)
 class BlameNotifierBeta < AbstractBlameNotifier
   depends_on "pvs-studio-beta"
   on_intel do
-    url "https://cdn.pvs-studio.com/beta/blame-notifier-7.38.98117.89-macos-x86_64.zip"
-    version "7.38.98117.89"
-    sha256 "ec403ab714e00e3f0ef38ff192da4aebadc07aa383a5f9d71efa4ed20b613bdc"
+    url "https://cdn.pvs-studio.com/beta/blame-notifier-7.38.98147.90-macos-x86_64.zip"
+    version "7.38.98147.90"
+    sha256 "239ecf430e1db64ff55bea8c6e2106623a5fe99e3b13fc7c01bdb55d35ee25dc"
   end
   on_arm do
-    url "https://cdn.pvs-studio.com/beta/blame-notifier-7.38.98117.89-macos-arm64.zip"
-    version "7.38.98117.89"
-    sha256 "7c05f86138a087cab87a6767ba2bdcafed3f0c72a1860f36a1602690494304f9"
+    url "https://cdn.pvs-studio.com/beta/blame-notifier-7.38.98147.90-macos-arm64.zip"
+    version "7.38.98147.90"
+    sha256 "854e8e8728d5f163a00bfd0928ce49e55638bf50a0a6c8ad3ca60ae61e541b46"
   end
 end
