@@ -5,7 +5,7 @@ class AbstractPvsStudio < Formula
   homepage "https://pvs-studio.com/en/pvs-studio/"
 
   def install
-    bin.install "bin/pvs-studio", "bin/pvs-studio-analyzer", "bin/plog-converter"
+    bin.install Dir["bin/*"]
     lib.install Dir["lib/*"]
     etc.install Dir["etc/*"]
   end
