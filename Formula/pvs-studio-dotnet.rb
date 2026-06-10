@@ -5,7 +5,7 @@ depends_on "pvs-studio"
 on_intel do
 url "https://files.pvs-studio.com/pvs-studio-dotnet-7.43.107142.2649-macos-x86_64.zip"
     version "7.43.107142.2649"
-    sha256 "1c25ea6fd2617dde22f6b43d0b8b95fdb4bb0693929daf17d86f3fb92b7f5f47"
+    sha256 "6c365470812ee921321f40a4980e2baf96236ff3f98e6e9691bf6fe7bed00448"
   end
   on_arm do
     url "https://files.pvs-studio.com/pvs-studio-dotnet-7.43.107142.2649-macos-arm64.zip"
