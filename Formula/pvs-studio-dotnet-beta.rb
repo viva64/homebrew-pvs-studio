@@ -3,13 +3,13 @@ require File.expand_path("../../Abstract/abstract-pvs-studio-dotnet", __FILE__)
 class PvsStudioDotnetBeta < AbstractPvsStudioDotnet
   depends_on "pvs-studio-beta"
   on_intel do
-    url "https://files.pvs-studio.com/beta/pvs-studio-dotnet-7.42.107034.350-macos-x86_64.zip"
-    version "7.42.107034.350"
-    sha256 "3963fe77fa16799d07d49bf45e4665fa0bee415ec04779700e853115fa95e344"
+    url "https://files.pvs-studio.com/beta/pvs-studio-dotnet-7.43.107189.356-macos-x86_64.zip"
+    version "7.43.107189.356"
+    sha256 "810363ba4c8faecaf88387ec0c4c942a95cce9ae94bd08b2e9d447db76aaf37a"
   end
   on_arm do
-    url "https://files.pvs-studio.com/beta/pvs-studio-dotnet-7.42.107034.350-macos-arm64.zip"
-    version "7.42.107034.350"
-    sha256 "7415719ea67e9e73e2376a47622181abba42de45ad2d8f22bdd2d056fbe46127"
+    url "https://files.pvs-studio.com/beta/pvs-studio-dotnet-7.43.107189.356-macos-arm64.zip"
+    version "7.43.107189.356"
+    sha256 "02e432bba2264a0916b928d512f4f1c9d62e101665e5bfdf2214b879218af911"
   end
 end
