@@ -1,10 +1,10 @@
-require File.expand_path("../../Abstract/abstract-pvs-js", __FILE__)
+require File.expand_path("../../Abstract/abstract-pvs-golang", __FILE__)
 
-class PvsStudioJsBeta < AbstractPvsStudioJs
+class PvsStudioGoBeta < AbstractPvsStudioGo
   depends_on "pvs-studio-beta"
   on_arm do
-    url 
-    version 
-    sha256 
+    url "https://files.pvs-studio.com/beta/pvs-golang-7.43.206-macos.zip"
+    version "7.43.206"
+    sha256 "14481410c3e1d4d5cd7103e1305f83370ddc35fe99a1d5ca1564bcbd84d5ebec"
   end
 end
