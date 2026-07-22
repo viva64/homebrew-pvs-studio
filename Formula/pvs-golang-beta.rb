@@ -1,4 +1,4 @@
-require File.expand_path("../../Abstract/abstract-pvs-studio-golang", __FILE__)
+require File.expand_path("../../Abstract/abstract-pvs-golang", __FILE__)
 
 class PvsStudioGoBeta < AbstractPvsStudioGo
   depends_on "pvs-studio-beta"

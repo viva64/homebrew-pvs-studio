@@ -1,4 +1,4 @@
-require File.expand_path("../../Abstract/abstract-pvs-studio-js", __FILE__)
+require File.expand_path("../../Abstract/abstract-pvs-js", __FILE__)
 
 class PvsStudioJsBeta < AbstractPvsStudioJs
   depends_on "pvs-studio-beta"
