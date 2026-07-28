@@ -4,7 +4,7 @@ Homebrew PVS-Studio
 
 A centralized repository for [PVS-Studio](https://pvs-studio.com/en/pvs-studio/) brews.
 
-PVS-Studio is a tool for detecting bugs and security weaknesses in the source code of programs, written in C, C++, C# and Java.
+PVS-Studio is a static code analyzer for Enterprise (C, C++, C#, Go, and Java) and Web (JS and TS) development.
 
 ## C and C++ analyzer
 
@@ -16,23 +16,33 @@ $ brew upgrade pvs-studio
 ```
 ## C# analyzer
 
-The PVS-Studio C# analyzer requires .NET SDK 9.0 and the PVS-Studio C++ analyzer (pvs-studio) installed on a machine. 
-The .NET SDK for macOS can be downloaded from [this page](https://dotnet.microsoft.com/download/dotnet/9.0).
+The PVS-Studio C# analyzer requires .NET SDK 10.0 and the PVS-Studio C++ analyzer (pvs-studio) installed on a machine. 
+The .NET SDK for macOS can be downloaded from [this page](https://dotnet.microsoft.com/download/dotnet/10.0).
 
-Installation commands:
+Installation and update commands:
 
 ```
-$ brew install viva64/pvs-studio/pvs-studio
 $ brew install viva64/pvs-studio/pvs-studio-dotnet
-```
-
-Update commands:
-
-```
-$ brew upgrade pvs-studio
 $ brew upgrade pvs-studio-dotnet
 ```
+## Go analyzer
 
+Installation and update commands:
+
+```
+$ brew install viva64/pvs-studio/pvs-golang
+$ brew upgrade pvs-golang
+```
+
+## JavaScript and TypeScript analyzer
+
+
+Installation and update commands:
+
+```
+$ brew install viva64/pvs-studio/pvs-js
+$ brew upgrade pvs-js
+```
 ## blame-notifier utility
 
 blame-notifier is a utility for automating the process of finding the developers responsible for writing code that triggered certain warnings, based on blame output from version control system.
