@@ -4,8 +4,8 @@ class PvsJsBeta < AbstractPvsJs
   depends_on "pvs-studio-beta"
   depends_on "node@24"
   on_arm do
-    url "https://files.pvs-studio.com/beta/pvs-js-8.00.250-macos.zip"
-    version "8.00.250"
-    sha256 "fe415c99201c890e1cac123f942b0b6065ab473d1d89bb35f76e7f14ea5a3911"
+    url "https://files.pvs-studio.com/beta/pvs-js-8.00.255-macos.zip"
+    version "8.00.255"
+    sha256 "80fb6ec014c6715a3d6b1bd53ea92fa47c566e480545e3d86b6f896943271eaf"
   end
 end
