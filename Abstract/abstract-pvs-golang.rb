@@ -1,4 +1,4 @@
-class AbstractPvsStudioGo < Formula
+class AbstractPvsGolang < Formula
     desc "PVS-Studio is a static code analyzer and SAST (static application security testing) tool\n" +
           "that is available for C and C++ desktop and embedded development, C#, Java, Go,\n" +
           "JS, and TS under Windows, Linux, and macOS."
